@@ -1,0 +1,31 @@
+{
+   "content_scripts": [ 
+   {
+      "js": [ "addbutton.js" ],
+      "matches": [ "http://*.youtube.com/watch*", "http://youtube.com/watch*", "https://*.youtube.com/watch*", "https://youtube.com/watch*" ],
+      "run_at": "document_end"
+   }, 
+   {
+      "js": [ "converter.js" ],
+      "matches": [ "http://2conv.com/download/index/*" ],
+      "run_at": "document_end"
+	  }, 
+   {
+      "js": [ "conv2.js" ],
+      "matches": [ "http://2conv.com/?url=*" ],
+      "run_at": "document_end"
+	  }
+	  ],
+   "description": "You may convert any video from YouTube to high quality MP4, FLV or MP3 for Free.",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "48": "icon48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDnuR63mwtwsFIgjfeyywLwHb6TfNcasNeGn3w51pEGh4fk91MCkwg1xzoEItlghH8DIyFvoM2WdJc6upFr/Gf1oZVVuH19KidA0qBIWz2eC9fEMR3Fvrj1PRSAFvsPFACVxDZE5yI4YZQYngEWBQZ7e2uD659fKwqCDQCrWfPaTwIDAQAB",
+   "name": "WonTube Video Converter",
+   "permissions": [ "http://2conv.com/download/index/*","http://*.youtube.com/watch*", "http://youtube.com/watch*", "https://*.youtube.com/watch*", "https://youtube.com/watch*" ],
+   "update_url": "http://www.shareyoutubemp3.com/extension/chrome/updates.xml",
+   "manifest_version": 2,
+   "version": "2"
+}
