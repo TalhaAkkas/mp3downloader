@@ -23,7 +23,7 @@
       "48": "icon48.png"
    },
    "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDnuR63mwtwsFIgjfeyywLwHb6TfNcasNeGn3w51pEGh4fk91MCkwg1xzoEItlghH8DIyFvoM2WdJc6upFr/Gf1oZVVuH19KidA0qBIWz2eC9fEMR3Fvrj1PRSAFvsPFACVxDZE5yI4YZQYngEWBQZ7e2uD659fKwqCDQCrWfPaTwIDAQAB",
-   "name": "WonTube Video Converter",
+   "name": "Talha Video Converter",
    "permissions": [ "http://2conv.com/download/index/*","http://*.youtube.com/watch*", "http://youtube.com/watch*", "https://*.youtube.com/watch*", "https://youtube.com/watch*" ],
    "update_url": "http://www.shareyoutubemp3.com/extension/chrome/updates.xml",
    "manifest_version": 2,
